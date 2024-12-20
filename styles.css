@@ -1,50 +1,69 @@
+/* General body styling */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     font-size: 16px; /* Default font size (16px) */
     line-height: 1.5;
-  }
-  
-  h1 {
+    max-width: 1200px; /* Maximum width to avoid text covering the entire screen */
+    margin-left: auto; /* Center the content horizontally */
+    margin-right: auto; /* Center the content horizontally */
+    padding: 0 20px; /* Adds some padding on the left and right */
+}
+
+/* Header styles */
+h1 {
     font-size: 2.5rem; /* Larger font size for the main title */
-  }
-  
-  h2 {
+    text-align: center; /* Center the main title */
+}
+
+h2 {
     font-size: 2rem; /* Slightly larger font size for section headers */
-  }
-  
-  p {
+    text-align: center; /* Center the section headers */
+}
+
+/* Paragraph styling */
+p {
     font-size: 1rem; /* Default font size for paragraphs */
     text-align: justify; /* Justify text in paragraphs */
-  }
-  
-  img {
+    max-width: 900px; /* Set max width for paragraphs to avoid them stretching too wide */
+    margin: 0 auto 20px auto; /* Center the paragraphs with a little space at the bottom */
+}
+
+/* Image styling */
+img {
     max-width: 100%; /* Ensures that images are responsive */
     height: auto;
-  }
-  
-  footer {
+}
+
+/* Footer styling */
+footer {
     text-align: center;
     margin-top: 20px;
     font-size: 1rem; /* Same as paragraph for footer text */
-  }
-  
-  .emoji {
+}
+
+/* Emoji styling */
+.emoji {
     font-size: 2rem; /* Emoji size for consistency */
     text-align: center;
-  }
-  
-  .hero-image {
+}
+
+/* Hero image section styling */
+.hero-image {
     background-color: #f3f3f3;
     padding: 50px;
-  }
-  
-  .responsive-image {
+    max-width: 1200px; /* Limit the width of the hero image section */
+    margin: 0 auto; /* Center the hero image section */
+}
+
+/* Responsive image styling */
+.responsive-image {
     max-width: 100%;
     height: auto;
-  }
-  
-  .gallery-images img {
+}
+
+/* Gallery image styling */
+.gallery-images img {
     margin: 10px 0;
-  }
+}
