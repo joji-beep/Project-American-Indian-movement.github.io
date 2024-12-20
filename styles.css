@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 16px; /* Default font size (16px) */
+    line-height: 1.5;
+  }
+  
+  h1 {
+    font-size: 2.5rem; /* Larger font size for the main title */
+  }
+  
+  h2 {
+    font-size: 2rem; /* Slightly larger font size for section headers */
+  }
+  
+  p {
+    font-size: 1rem; /* Default font size for paragraphs */
+    text-align: justify; /* Justify text in paragraphs */
+  }
+  
+  img {
+    max-width: 100%; /* Ensures that images are responsive */
+    height: auto;
+  }
+  
+  footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1rem; /* Same as paragraph for footer text */
+  }
+  
+  .emoji {
+    font-size: 2rem; /* Emoji size for consistency */
+    text-align: center;
+  }
+  
+  .hero-image {
+    background-color: #f3f3f3;
+    padding: 50px;
+  }
+  
+  .responsive-image {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .gallery-images img {
+    margin: 10px 0;
+  }
