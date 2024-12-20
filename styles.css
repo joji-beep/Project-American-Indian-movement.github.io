@@ -34,6 +34,9 @@ p {
 img {
     max-width: 100%; /* Ensures that images are responsive */
     height: auto;
+    display: block; /* Ensures the images are block level elements */
+    margin-left: auto; /* Center the images horizontally */
+    margin-right: auto; /* Center the images horizontally */
 }
 
 /* Footer styling */
@@ -57,13 +60,16 @@ footer {
     margin: 0 auto; /* Center the hero image section */
 }
 
-/* Responsive image styling */
-.responsive-image {
-    max-width: 100%;
-    height: auto;
+/* Gallery image styling */
+.gallery-images {
+    display: flex; /* Use flexbox to align gallery images */
+    flex-wrap: wrap; /* Allow images to wrap if necessary */
+    justify-content: center; /* Center the images horizontally */
+    gap: 20px; /* Add space between images */
 }
 
-/* Gallery image styling */
 .gallery-images img {
-    margin: 10px 0;
+    max-width: 100%;
+    height: auto;
+    margin: 10px; /* Space around each image */
 }
